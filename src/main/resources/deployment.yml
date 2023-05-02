@@ -27,7 +27,7 @@ spec:
     spec:
       containers:
         - name: spring-mongo-service
-          image: spring-mongo-service:1.0
+          image: 97doc/springboot-k8s-mongo:latest
           imagePullPolicy: Never
           ports:
           - containerPort: 8080
